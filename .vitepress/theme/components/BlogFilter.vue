@@ -1,6 +1,6 @@
 <script setup>
 import { ref, computed, watch, onMounted } from 'vue'
-import { data as posts } from '../../../learnings/posts.data.mjs'
+import { data as posts } from '../posts.data.mjs'
 
 const filterOpen = ref(false)
 const searchQuery = ref('')

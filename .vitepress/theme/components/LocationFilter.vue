@@ -1,6 +1,6 @@
 <script setup>
 import { ref, computed, watch, onMounted } from 'vue'
-import { data as locations } from '../../../explore/locations.data.mjs'
+import { data as locations } from '../locations.data.mjs'
 
 const filterOpen = ref(false)
 const searchQuery = ref('')
